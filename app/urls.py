@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from flask import Blueprint
-from views.index import IndexView
+from views.index_view import IndexView
 
 blueprint = Blueprint('urls_app', __name__)
 

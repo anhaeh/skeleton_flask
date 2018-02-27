@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
+from flask import render_template
 from flask.views import MethodView
 
 
 class IndexView(MethodView):
 
     def get(self):
-        return "Hello Happy World!"
+        return render_template('index.html')
 
     def post(self):
         pass
