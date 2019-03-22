@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from app.app import app
+from app import app
 from config.settings import *
 
 
