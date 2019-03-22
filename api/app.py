@@ -3,7 +3,7 @@
 import os
 import sys
 from flask import Flask
-import api.urls as urls
+import urls
 
 root_path = os.path.abspath(os.path.dirname(__file__))
 sys.path.insert(0, root_path)

@@ -5,7 +5,6 @@ Skeleton for create an API in Flask framework
 ```
 pip install -r requirements.txt
 cp config/settings_sample.py config/settings.py
-python wsgi.py
 ```
 
 ### Run App
